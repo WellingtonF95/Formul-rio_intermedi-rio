@@ -80,6 +80,12 @@ fieldset {
 
 }
 
+.legend-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 36px;
+}
+
 .fieldset-wrapper {
   display: flex;
   flex-direction: column;
@@ -102,8 +108,7 @@ fieldset legend {
   display: flex;
   justify-content: space-between;
   gap: 22px;
-  margin-top: 26px;
-
+  
 }
 
 .input-wrapper {
@@ -133,6 +138,47 @@ fieldset legend {
   line-height: 24px;
   color: #9e9ec2;
 
+  padding-left: 10px;
+
 }
+
+.input-wrapper span {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+
+  color: #786e8d;
+
+  padding-left: 9px;
+
+  
+}
+
+.column-wrapper {
+  display: flex;
+  gap: 32px;
+  width: 100%;
+}
+
+ .h1-wrapper h1 {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 34px;
+
+  color: #535971;
+
+  padding-bottom: 8px;
+
+  
+}
+
+.date-wrapper {
+  display: flex;;
+  gap: 10px;
+  width: 100%;
+}
+
+
+
 
   
